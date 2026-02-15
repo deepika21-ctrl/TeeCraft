@@ -27,12 +27,6 @@ TeeCraft is an interactive 3D T-shirt customization web application built using 
 - Node.js
 - npm
 
-### Installation
-git clone https://github.com/deepika21-ctrl/teecraft.git
-cd teecraft
-npm install
-npm run dev
-
 ## 📂 Project Structure
 src/
  ├── components/
