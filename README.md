@@ -10,9 +10,9 @@ Interactive 3D T-shirt model with smooth rotation
 
 Real-time color customization with instant material updates
 
-Upload custom images as:
+Upload custom images in:
 
-Logo Mode (small front placement)
+Logo Mode (front placement)
 
 Full Texture Mode (entire shirt design)
 
@@ -20,7 +20,7 @@ Dynamic texture mapping applied directly to 3D mesh
 
 State-driven UI updates using React architecture
 
-Responsive layout optimized for different screen sizes
+Responsive layout optimized for multiple screen sizes
 
 Modular and reusable component-based structure
 
@@ -30,7 +30,7 @@ Clean and modern UI using Tailwind CSS
 
 🧠 Why This Project
 
-Most online T-shirt customization platforms rely on static 2D previews, which limit user interaction and visualization accuracy.
+Most online T-shirt customization platforms rely on static 2D previews, limiting interaction and visualization accuracy.
 
 This project was built to:
 
@@ -44,7 +44,7 @@ Practice mesh manipulation and dynamic material updates
 
 Build a portfolio-ready immersive frontend project
 
-Create a foundation for AI-powered design systems and AR integration
+Create a scalable base for AI-powered design systems and AR integration
 
 🛠️ Tech Stack
 
@@ -52,13 +52,13 @@ Node.js – Development runtime
 
 React.js – Component-based UI framework
 
-Three.js – Core 3D rendering engine
+Three.js – 3D rendering engine
 
 React Three Fiber – React renderer for Three.js
 
 React Three Drei – Utility helpers for 3D scenes
 
-Vite – Fast build and dev server
+Vite – Development build tool
 
 Tailwind CSS – Utility-first styling framework
 
@@ -66,17 +66,17 @@ Tailwind CSS – Utility-first styling framework
 
 The 3D T-shirt model is loaded into a WebGL canvas using React Three Fiber.
 
-Three.js handles mesh rendering, lighting, camera setup, and material updates.
+Three.js manages mesh rendering, lighting, camera setup, and material updates.
 
-User interactions (color picker, file upload, toggle mode) update the global state.
+User interactions (color picker, file upload, toggle modes) update the global state.
 
 React state triggers real-time updates on the 3D mesh material.
 
-Texture uploads are dynamically mapped onto the model surface.
+Uploaded textures are dynamically mapped onto the model surface.
 
 The rendering pipeline updates instantly without page reload.
 
-🧾 Customization Options
+🎨 Customization Options
 
 Users can:
 
@@ -86,13 +86,35 @@ Upload custom images
 
 Switch between logo-only mode and full-texture mode
 
-Rotate and inspect the model interactively
+Rotate and inspect the 3D model interactively
+
+⚡ Quick Start
+🔧 Prerequisites
+
+Git
+
+Node.js (v16 or higher)
+
+npm
+
+📥 Installation
+# Clone the repository
+git clone https://github.com/your-username/teecraft.git
+
+# Navigate into the project folder
+cd teecraft
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 
 📂 Project Structure
 src/
  ├── components/     # UI components (color picker, file upload, controls)
- ├── canvas/         # 3D scene setup and rendering logic
- ├── assets/         # Models, textures, and images
+ ├── canvas/         # 3D scene and rendering logic
+ ├── assets/         # Models, textures, and static files
  └── App.jsx         # Main application entry point
 
 ⚠️ Limitations
@@ -101,7 +123,7 @@ Frontend-only project (no backend integration yet)
 
 No user authentication or saved designs
 
-No e-commerce checkout system
+No checkout or e-commerce functionality
 
 Performance may vary on low-end devices
 
@@ -109,23 +131,22 @@ Performance may vary on low-end devices
 
 AI-powered design suggestions
 
-AR-based virtual try-on integration
+AR-based virtual try-on
 
 Backend integration for product ordering
 
 User accounts & saved custom designs
 
-Export customized design as image
+Export customized design as an image
 
-Performance optimization using lazy loading
+Performance optimization and lazy loading
 
-Dark / Light theme support
+Dark / Light theme toggle
 
 🔗 Live Demo
 
-(Add your deployed link here once hosted)
+(Add your deployed link here)
 
 👩‍💻 Author
 
 Deepika Yadav
-B.Tech CSE | Frontend & 3D Web Enthusiast
