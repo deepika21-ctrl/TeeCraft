@@ -1,134 +1,115 @@
-🎨 TeeCraft – 3D T-Shirt Customization App
+# 🎨 TeeCraft – 3D T-Shirt Customization App  
 
 An interactive and immersive 3D web application that allows users to personalize T-shirts in real time using modern frontend technologies and WebGL-based rendering.
 
 TeeCraft combines creativity with real-time 3D graphics to simulate an industry-style apparel customization platform directly inside the browser.
 
-🌟 Key Features
+---
 
-Interactive 3D T-shirt model with smooth rotation
+## 🌟 Key Features  
 
-Real-time color customization with instant material updates
+- Interactive 3D T-shirt model with smooth rotation  
+- Real-time color customization with instant material updates  
+- Upload custom images in:
+  - Logo Mode (front placement)
+  - Full Texture Mode (entire shirt design)  
+- Dynamic texture mapping applied directly to the 3D mesh  
+- State-driven UI updates using React architecture  
+- Responsive layout optimized for multiple screen sizes  
+- Modular and reusable component-based structure  
+- Fast development workflow powered by Vite  
+- Clean and modern UI using Tailwind CSS  
 
-Upload custom images in:
+---
 
-Logo Mode (front placement)
-
-Full Texture Mode (entire shirt design)
-
-Dynamic texture mapping applied directly to the 3D mesh
-
-State-driven UI updates using React architecture
-
-Responsive layout optimized for multiple screen sizes
-
-Modular and reusable component-based structure
-
-Fast development workflow powered by Vite
-
-Clean and modern UI using Tailwind CSS
-
-🧠 Why This Project
+## 🧠 Why This Project  
 
 Most online T-shirt customization platforms rely on static 2D previews, limiting interaction and visualization accuracy.
 
 This project was built to:
 
-Provide a real-time 3D alternative to traditional 2D product previews
+- Provide a real-time 3D alternative to traditional 2D product previews  
+- Demonstrate practical implementation of WebGL rendering  
+- Strengthen understanding of React state management in 3D environments  
+- Practice mesh manipulation and dynamic material updates  
+- Build a portfolio-ready immersive frontend project  
+- Create a scalable base for AI-powered design systems and AR integration  
 
-Demonstrate practical implementation of WebGL rendering
+---
 
-Strengthen understanding of React state management in 3D environments
+## 🛠️ Tech Stack  
 
-Practice mesh manipulation and dynamic material updates
+- Node.js – Development runtime  
+- React.js – Component-based UI framework  
+- Three.js – 3D rendering engine  
+- React Three Fiber – React renderer for Three.js  
+- React Three Drei – Utility helpers for 3D scenes  
+- Vite – Development build tool  
+- Tailwind CSS – Utility-first styling framework  
 
-Build a portfolio-ready immersive frontend project
+---
 
-Create a scalable base for AI-powered design systems and AR integration
+## ⚙️ How It Works  
 
-🛠️ Tech Stack
+- The 3D T-shirt model is loaded into a WebGL canvas using React Three Fiber.  
+- Three.js manages mesh rendering, lighting, camera setup, and material updates.  
+- User interactions such as color selection, file upload, and mode switching update the global state.  
+- React state triggers real-time updates on the 3D mesh material.  
+- Uploaded textures are dynamically mapped onto the model surface.  
+- The rendering pipeline updates instantly without page reload.  
 
-Node.js – Development runtime
+---
 
-React.js – Component-based UI framework
-
-Three.js – 3D rendering engine
-
-React Three Fiber – React renderer for Three.js
-
-React Three Drei – Utility helpers for 3D scenes
-
-Vite – Development build tool
-
-Tailwind CSS – Utility-first styling framework
-
-⚙️ How It Works
-
-The 3D T-shirt model is loaded into a WebGL canvas using React Three Fiber.
-
-Three.js manages mesh rendering, lighting, camera setup, and material updates.
-
-User interactions such as color selection, file upload, and mode switching update the global state.
-
-React state triggers real-time updates on the 3D mesh material.
-
-Uploaded textures are dynamically mapped onto the model surface.
-
-The rendering pipeline updates instantly without page reload.
-
-🎨 Customization Options
+## 🎨 Customization Options  
 
 Users can:
 
-Change T-shirt color in real time
+- Change T-shirt color in real time  
+- Upload custom images  
+- Switch between logo-only mode and full-texture mode  
+- Rotate and inspect the 3D model interactively  
 
-Upload custom images
+---
 
-Switch between logo-only mode and full-texture mode
-
-Rotate and inspect the 3D model interactively
-
-📂 Project Structure
+## 📂 Project Structure  
 
 The project is organized into:
 
-components – UI elements like color picker, file upload, and controls
+- components – UI elements like color picker, file upload, and controls  
+- canvas – 3D scene setup and rendering logic  
+- assets – Models, textures, and static files  
+- App.jsx – Main application entry point  
 
-canvas – 3D scene setup and rendering logic
+---
 
-assets – Models, textures, and static files
+## ⚠️ Limitations  
 
-App.jsx – Main application entry point
+- Frontend-only project (no backend integration yet)  
+- No user authentication or saved designs  
+- No checkout or e-commerce functionality  
+- Performance may vary on low-end devices  
 
-⚠️ Limitations
+---
 
-Frontend-only project (no backend integration yet)
+## 🚀 Future Enhancements  
 
-No user authentication or saved designs
+- AI-powered design suggestions  
+- AR-based virtual try-on  
+- Backend integration for product ordering  
+- User accounts and saved custom designs  
+- Export customized design as an image  
+- Performance optimization  
+- Dark / Light theme toggle  
 
-No checkout or e-commerce functionality
+---
 
-Performance may vary on low-end devices
+## 🔗 Live Demo  
 
-🚀 Future Enhancements
-
-AI-powered design suggestions
-
-AR-based virtual try-on
-
-Backend integration for product ordering
-
-User accounts and saved custom designs
-
-Export customized design as an image
-
-Performance optimization
-
-Dark / Light theme toggle
-
-🔗 Live Demo
 ...
 
-👩‍💻 Author
+---
 
-Deepika Yadav
+## 👩‍💻 Author  
+
+Deepika Yadav  
+B.Tech CSE | Frontend & 3D Web Enthusiast  
